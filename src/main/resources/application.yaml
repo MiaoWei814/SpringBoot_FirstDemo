@@ -1,0 +1,17 @@
+# 关闭模板引擎的缓存
+spring:
+  thymeleaf:
+    cache: false
+    # 国际化（消息源自动配置）
+  messages:
+    basename: i18n.login
+    # 时间日期格式化
+  mvc:
+    format:
+      date: yyyy-MM-dd
+      date-time: yyyy-MM-dd HH:mm:ss
+# 设置项目前缀
+server:
+  servlet:
+    context-path: /miao
+
