@@ -14,4 +14,13 @@ spring:
 server:
   servlet:
     context-path: /miao
+  port: 8081
+
+# 配置日志
+logging:
+  level:
+    com:
+      example:
+        springbootproject: trace  # 指定com.example.springbootproject下的输出级别为trace
+    root: error  # 详细信息为最小级别
 
